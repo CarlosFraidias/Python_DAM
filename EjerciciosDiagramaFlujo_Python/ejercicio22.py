@@ -4,11 +4,11 @@ mensaje indicando cuántos son positivos y cuantos negativos."""
 neg = 0
 pos = 0
 for i in range(0,100):
+    print("numero", i)
     num = int(input("-Introduce un número:"))
     if num < 0:
-        neg = True
+        neg+=1
+    else:
+        pos+=1
         
-if neg:
-    print("Ha habido algún negativo")
-else:
-    print("No ha habido ningún negativo")
+print("Positivos:", pos, "\nNegativos:", neg)
