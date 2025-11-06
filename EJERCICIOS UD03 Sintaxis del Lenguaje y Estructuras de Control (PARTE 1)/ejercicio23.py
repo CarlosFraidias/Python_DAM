@@ -13,5 +13,8 @@ if opcion == 1:
 elif opcion == 2:
     print("Se añadirá un recargo de 3%")
     precio = precio * 1.03 
+else:
+    print("Introduce una opción válida")
+    exit()
 
 print("El total a pagar es:", format(precio, ".2f"))
