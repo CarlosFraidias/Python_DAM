@@ -3,7 +3,7 @@ número negativo o no."""
 
 neg = False
 
-for i in range(1, 11):
+for i in range(1, 101):
     num = int(input("Introudce un número: "))
     if num  < 0:
         neg = True
