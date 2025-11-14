@@ -5,6 +5,6 @@ asteriscos = ""
 
 altura = int(input("Introduce la altura de la pirámide: "))
 
-for i in range(0, altura):
+for i in range(altura):
     asteriscos += '*'
     print(asteriscos)
